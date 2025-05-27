@@ -373,8 +373,8 @@
 }
 
 .like-icon {
-  block-size: 36px;
   inline-size: 39px;
+  block-size: 36px;
 }
 
 @media (width < 376px) {
