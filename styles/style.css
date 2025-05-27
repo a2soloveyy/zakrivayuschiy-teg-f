@@ -271,10 +271,6 @@
   outline: none;
 }
 
-.card__icon-button:focus {
-  outline: none;
-}
-
 .card__like-button {
   display: flex;
   justify-content: center;
