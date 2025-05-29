@@ -124,7 +124,6 @@
 }
 
 .header__title {
-  margin-block-start: clamp(7.8rem, 7.1479rem + 1.5023vw, 8.8rem);
   margin-block-end: 19px;
   margin-block-start: 129px;
 }
