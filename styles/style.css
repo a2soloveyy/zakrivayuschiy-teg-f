@@ -111,8 +111,8 @@
   font-family: var(--page-accent-font-family, "PressStart2P", fantasy);
   line-height: normal;
   text-transform: uppercase;
-  width: 696px;
-  height: 364px;
+  width: 700px;
+  height: 368px;
 }
 
 .header__content {
@@ -124,8 +124,9 @@
 }
 
 .header__title {
-  margin-block-start: clamp(7.5rem, 7.1479rem + 1.5023vw, 8.5rem);
-  margin-block-end: 20px;
+  margin-block-start: clamp(7.8rem, 7.1479rem + 1.5023vw, 8.8rem);
+  margin-block-end: 19px;
+  margin-block-start: 129px;
 }
 
 .header__subtitle {
@@ -207,7 +208,7 @@
   margin-inline: auto;
   border: 2px solid var(--text-color, #000000);
   background: var(--page-background-color, #ffffff);
-  max-inline-size: 696px;
+  max-inline-size: 700px;
 }
 
 .card__header {
@@ -381,7 +382,47 @@
   block-size: 36px;
 }
 
-@media (width < 376px) {
+@media (max-width: 375px) {
+
+  .header {
+    width: 100%;
+    max-width: 375px;
+    height: 327px;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .header__content {
+    width: 343px;
+    max-width: 100%;
+    height: 83px;
+    padding: 0 10px;
+    box-sizing: border-box;
+  }
+
+  .header__title {
+    margin-block-end: 1rem;
+    text-align: center;
+
+  }
+
+  .header__subtitle {
+    margin-top: 4px;
+  }
+
+  .header__theme-menu {
+    margin-block: clamp(0.5rem, 3vh, 1rem);
+  }
+
+  .theme-menu__list {
+    padding-inline-start: 10px;
+    justify-content: center;
+  }
+
+  .card__title {
+    margin-top: 2px;
+  }
+
   .modal {
     padding: 28px 34px 28px 40px;
     max-inline-size: 340px;
