@@ -7,6 +7,15 @@
 
 body {
   margin: 0;
+  overflow-x: hidden;
+}
+
+.page {
+  padding: 100px 10px 0;
+}
+
+.main {
+  padding-bottom: 50px;
 }
 
 h1,
